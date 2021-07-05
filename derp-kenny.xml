@@ -9,7 +9,7 @@
   <!-- Device-specific sources -->
   <project name="silont-project/device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="11"/>
   <project name="silont-project/device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="github" revision="11" />
-  <project name="silont-project/kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="oss" clone-depth="1"/>
+  <project name="silont-project/kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="ayasakura" clone-depth="1"/>
   <project name="proprietary_vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" remote="kghub" clone-depth="1"/>
   <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="kghub" clone-depth="1"/>
   <!-- other needed sources -->
