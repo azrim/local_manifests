@@ -11,12 +11,12 @@
           revision="lineage-18.1" />
 
   <!-- Surya Device-specific sources -->
-  <project name="silont-project/device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="main"/>
+  <project name="silont-project/device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="derp"/>
   <project name="silont-project/kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="ayaka" clone-depth="1"/>
   <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="kghub" clone-depth="1"/>
   <project name="proprietary_firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="kglab" />
   
-  <!-- Surya Device-specific sources -->
+  <!-- Vayu Device-specific sources -->
   <project name="fryevia/device_xiaomi_vayu" path="device/xiaomi/vayu" remote="github" revision="11-oss"/>
   <project name="nullxception/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="github" revision="staging/eleven" clone-depth="1"/>
   <project name="nullxception/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="11-oss" clone-depth="1"/>
