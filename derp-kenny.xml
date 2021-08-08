@@ -13,6 +13,6 @@
   <project name="proprietary_vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" remote="kghub" clone-depth="1"/>
   <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="kghub" clone-depth="1"/>
   <!-- other needed sources -->
-  <project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="master" clone-depth="1"/>
+  <project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="13" clone-depth="1"/>
   <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="stuff" />
 </manifest>
