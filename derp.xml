@@ -12,7 +12,7 @@
 
   <!-- Surya Device-specific sources -->
   <project name="silont-project/device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="derp"/>
-  <project name="silont-project/kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="ayaka" clone-depth="1"/>
+  <project name="silont-project/kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="github" revision="lite" clone-depth="1"/>
   <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="kghub" clone-depth="1"/>
   <project name="proprietary_firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="kglab" />
   
@@ -22,6 +22,6 @@
   <project name="nullxception/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="11-oss" clone-depth="1"/>
 
   <!-- other needed sources -->
-  <project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="master" clone-depth="1"/>
+  <project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="13" clone-depth="1"/>
   <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="stuff" />
 </manifest>
