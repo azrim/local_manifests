@@ -16,12 +16,12 @@
   <project name="proprietary_vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="kghub" clone-depth="1"/>
   <project name="proprietary_firmware_xiaomi_surya" path="firmware/xiaomi/surya" remote="kglab" />
   
-  <!-- Vayu Device-specific sources -->
+  <!-- Vayu Device-specific sources >
   <project name="fryevia/device_xiaomi_vayu" path="device/xiaomi/vayu" remote="github" revision="11-oss"/>
   <project name="nullxception/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="github" revision="staging/eleven" clone-depth="1"/>
-  <project name="nullxception/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="11-oss" clone-depth="1"/>
+  <project name="nullxception/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="11-oss" clone-depth="1"/-->
 
   <!-- other needed sources -->
-  <!--project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="13" clone-depth="1"/-->
+  <project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="13" clone-depth="1"/>
   <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="stuff" />
 </manifest>
