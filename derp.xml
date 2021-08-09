@@ -22,6 +22,6 @@
   <project name="nullxception/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="11-oss" clone-depth="1"/>
 
   <!-- other needed sources -->
-  <project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="13" clone-depth="1"/>
+  <!--project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="13" clone-depth="1"/-->
   <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="stuff" />
 </manifest>
