@@ -10,6 +10,8 @@
   <remote name="chaldea"
           fetch="ssh://git@github.com/chaldeaprjkt"
           revision="12" />
+  
+  <remove-project name="packages/resources/devicesettings" />
 
   <!-- Surya Device-specific sources -->
   <project name="silont-project/device_xiaomi_surya" path="device/xiaomi/surya" remote="github" revision="12-test"/>
@@ -25,4 +27,6 @@
   <!-- other needed sources -->
   <project name="silont-project/silont-clang" path="prebuilts/clang/host/linux-x86/clang-silont" remote="github" revision="13" clone-depth="1"/>
   <project name="hardware_xiaomi" path="hardware/xiaomi" remote="pixel" />
+  <project name="packages_resources_devicesettings" path="packages/resources/devicesettings-custom" remote="pixel" />
+  <project name="lineageos/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-19.0"/>
 </manifest>
